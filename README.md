@@ -45,3 +45,7 @@ If any of the above risks were identified, the steps would be:
   - [chrome://extensions](chrome://extensions) – for Google Chrome
   - edge://extensions/ – for Microsoft Edge
   - about:addons – for Mozilla Firefox
+ 
+
+# Conclusion
+   By following the above steps, the suspicious extension was removed, resulting in improved browser performance and enhanced security awareness.
