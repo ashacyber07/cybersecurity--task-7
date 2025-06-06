@@ -46,6 +46,71 @@ If any of the above risks were identified, the steps would be:
   - edge://extensions/ – for Microsoft Edge
   - about:addons – for Mozilla Firefox
  
-
 # Conclusion
    By following the above steps, the suspicious extension was removed, resulting in improved browser performance and enhanced security awareness.
+
+# Interview Questions
+
+# 1. How can browser extensions pose security risks?**
+Browser extensions can:
+* Access sensitive data: like passwords, browsing history, cookies, or credit card info.
+* Inject malicious code: into websites you visit, modifying content or stealing data.
+* Track your activity: sending your data to third parties without your consent.
+* Act as malware : if developed with bad intent or hijacked after installation.
+
+#2 . What permissions should raise suspicion? 
+Be cautious of extensions that ask for:
+   * “Read and change all your data on the websites you visit”– broad and powerful access.
+   * Access to clipboard data – can capture copied passwords or sensitive information.
+   * Access to downloads, file system, or device info – unnecessary for most extensions. 
+   * Background access and full browser control – often not required.
+
+# 3. How to safely install browser extensions?
+   * ✅ **Use official stores**: like Chrome Web Store or Firefox Add-ons.
+   * ✅ **Check reviews and ratings**.
+   * ✅ **Review developer info** and update history.
+   * ✅ **Limit permissions** where possible.
+   * ✅ **Avoid third-party websites** offering extensions.
+   * ✅ **Read the privacy policy** of the extension.
+
+
+# 4. What is extension sandboxing?
+Extension sandboxing is a security feature that:
+   * Isolates an extension from the core browser and other extensions.
+   * Limits access to sensitive APIs or system resources.
+   * Helps prevent one compromised extension from affecting the entire system.
+
+# 5. Can extensions steal passwords?
+Yes, malicious or compromised extensions can:
+   * Log keystrokes (keyloggers).
+   * Read autofill data from forms.
+   * Access cookies storing session tokens.
+   * Trick users into entering credentials into fake forms.
+   * Always be wary of extensions with form-reading or page-editing capabilities.
+
+# 6. How to update extensions securely?
+   * 🔄Enable automatic updates in browser settings.
+   * 🔍 regularly review extension permissions after updates.
+   * 📦 Avoid sideloaded extensions (manually installed), as they don't auto-update.
+   * ✅ Re-check extension reviews occasionally; sometimes, good extensions get sold and turn malicious.
+
+# 7. Difference between extensions and plugins?
+| Feature        | Extensions                     | Plugins                          |
+| -------------- | ------------------------------ | -------------------------------- |
+| **Definition** | Add features to the browser    | Add support for specific content |
+| **Example**    | Ad blockers, password managers | Flash Player, Java Plugin        |
+| **Technology** | HTML, JS, CSS                  | External software modules        |
+| **Security**   | More sandboxed                 | Historically more vulnerable     |
+| **Modern use** | Still in use                   | Mostly deprecated (e.g., Flash)  |
+
+
+# 8. How to report malicious extensions?
+*🔹Chrome Web Store:
+   Go to the extension’s page → Click Report abuse
+* Firefox Add-ons**:
+  Visit the extension page → Click **"Report this add-on for abuse"**.
+*🔹Also consider:
+       * Submitting to Google Safe Browsing or Microsoft Edge security team**.
+       * Reporting on platforms like **Reddit** or GitHubif  open source.
+
+
